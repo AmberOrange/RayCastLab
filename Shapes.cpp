@@ -26,6 +26,7 @@ Plane::Plane(Vec normal, float _d, Color color)
 	this->c = color;
 }
 //-------------------------------------------------------
+// Sphere
 void Sphere::test(Ray& ray, HitData& hit)
 {
 	float b = ray.d.Dot(ray.o - this->center);
